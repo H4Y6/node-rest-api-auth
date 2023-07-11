@@ -12,6 +12,7 @@
     "array-flatten": "^1.1.1",
     "balanced-match": "^1.0.2",
     "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
     "binary-extensions": "^2.2.0",
     "body-parser": "^1.20.1",
     "brace-expansion": "^1.1.11",
@@ -68,6 +69,7 @@
     "is-number": "^7.0.0",
     "isexe": "^2.0.0",
     "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
     "kareem": "^2.5.1",
     "media-typer": "^0.3.0",
     "memory-pager": "^1.5.0",
@@ -141,7 +143,6 @@
     "yargs": "^17.7.2",
     "yargs-parser": "^21.1.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=production node ./server.js",
