@@ -5,7 +5,7 @@ const cors = require("cors");
 
 global.basedir = __dirname;
 const contactsRouter = require("./routes/api/contacts");
-const usersRouter = require("./routes/api");
+const usersRouter = require("./routes/api/users");
 
 const app = express();
 
