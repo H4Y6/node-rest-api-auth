@@ -1,5 +1,4 @@
 const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
 
 const { basedir } = global;
 const { User, schemas } = require(`${basedir}/models/user`);

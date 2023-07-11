@@ -29,14 +29,14 @@ const userSchema = new Schema(
 const User = model("user", userSchema);
 
 const registerSchema = Joi.object({
-  password: Joi.string().required().min(6),
   email: Joi.string().required().pattern(emailRegexp),
+  password: Joi.string().required().min(6),
   subscription: Joi.string().valueOf("starter", "pro", "business"),
 });
 
 const loginSchema = Joi.object({
-  password: Joi.string().required().min(6),
   email: Joi.string().required().pattern(emailRegexp),
+  password: Joi.string().required().min(6),
 });
 
 const schemas = { register: registerSchema, login: loginSchema };
